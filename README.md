@@ -1,9 +1,9 @@
-# ionic2-chat
+# Ionic2 Chat
 fe tech update too fast too follow. this is the ionic2 version for  https://github.com/pengkobe/ionic-chat
 
-## why
+## Why
 to learn the next generation technology for hybrid app.
 
 
-## license
-yipeng.info@MIT
+## License
+MITyipeng.info
