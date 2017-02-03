@@ -4,6 +4,5 @@ fe tech update too fast too follow. this is the ionic2 version for  https://gith
 ## Why
 to learn the next generation technology for hybrid app.
 
-
 ## License
-MITyipeng.info
+MIT@[yipeng.info](https://yipeng.info)
