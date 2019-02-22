@@ -1,8 +1,16 @@
-# Ionic2 Chat
-fe tech update too fast too follow. this is the ionic2 version for  https://github.com/pengkobe/ionic-chat
+# tars node demo
 
-## Why
-to learn the next generation technology for hybrid app.
+tars node demo
+
+## 安装 tars2node
+
+```bash
+yum groupinstall "Development Tools"
+git clone https://github.com/tars-node/tars2node
+cd tars2node/build
+cmake ../ && make
+```
 
 ## License
+
 MIT@[yipeng.info](https://yipeng.info)
