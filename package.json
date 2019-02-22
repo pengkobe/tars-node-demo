@@ -1,0 +1,27 @@
+{
+  "name": "tars-node-demo",
+  "version": "1.0.0",
+  "description": "tars node demo",
+  "main": "index.js",
+  "dependencies": {
+    "@tars/rpc": "^2.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengkobe/tars-node-demo.git"
+  },
+  "keywords": [
+    "tars",
+    "node"
+  ],
+  "author": "pengkobe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pengkobe/tars-node-demo/issues"
+  },
+  "homepage": "https://github.com/pengkobe/tars-node-demo#readme"
+}
