@@ -9,7 +9,7 @@ var TRom = require("./NodeJsCommProxy.js").TRom;
 //Tars.initialize("./config.conf");
  
 //STEP03 生成服务端调用代理类实例
-var prx = Tars.stringToProxy(TRom.NodeJsCommProxy, "TRom.NodeJsTestServer.NodeJsCommObj@tcp -h 127.0.0.1 -p 14002 -t 60000");
+var prx = Tars.stringToProxy(TRom.NodeJsCommProxy, "TRom.NodeJsTestServer.NodeJsCommObj@tcp -h 127.0.0.1 -p 14003 -t 60000");
  
 //STEP04 客户端调用采用Promise机制进行回调，这里编写成功以及失败的回调函数
 var success = function (result) {

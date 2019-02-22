@@ -20,7 +20,7 @@ TRom.NodeJsCommImp.prototype.getall = function (current, stUser, stResult) {
     //         解决返回值的问题之后，我们按顺序写入当前的出参即可。参数的编解码和网络传输由框架解决。
 
     stResult.id = 10000;
-    stResult.iLevel = 10001;
+    stResult.iLevel = 1000122;
 
     current.sendResponse(200, stResult);
 }
