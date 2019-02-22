@@ -19,7 +19,7 @@ TRom.NodeJsCommImp.prototype.getall = function (current, stUser, stResult) {
     //         如果当前函数有返回值，那么current.sendResponse的第一个参数应该是该返回。示例中当前函数的返回值为int类型，我们返回200作为示例。
     //         解决返回值的问题之后，我们按顺序写入当前的出参即可。参数的编解码和网络传输由框架解决。
 
-    stResult.id = 10000;
+    stResult.id = 10000151;
     stResult.iLevel = 1000122;
 
     current.sendResponse(200, stResult);
