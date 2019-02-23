@@ -22,16 +22,15 @@ console.log(tarsRegistry._locator);
 console.log(typeof (tarsRegistry));
 
 // 从注册中心中获取到对应对象的地址列表
-var serverObj = tarsRegistry.findObjectById('TRom.NodeJsTestServer.NodeJsCommObj');
+var serverObj = tarsRegistry.findObjectById('TRom.NodeJsComm.NodeJsCommObj');
 serverObj.then(function (value) {
     console.log(value.response.return.value)
     return value.response.return.value
 }).then(function (value) {
-
     var host = value[0].host
     var port = value[0].port
 
-    var prx = Tars.stringToProxy(TRom.NodeJsCommProxy, "TRom.NodeJsTestServer.NodeJsCommObj@tcp -h " + host + " -t 60000 -p " + port);
+    var prx = Tars.stringToProxy(TRom.NodeJsCommProxy, "TRom.NodeJsComm.NodeJsCommObj@tcp -h " + host + " -t 60000 -p " + port);
 
     // 客户端调用采用Promise机制进行回调，这里编写成功以及失败的回调函数
     var success = function (result) {

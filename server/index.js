@@ -1,4 +1,4 @@
-var Tars = require("@tars/rpc").server;
+var Tars = require("@tars/rpc");
 var TRom = require("./NodeJsCommImp.js").TRom;
 
 /**
